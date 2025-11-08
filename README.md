@@ -100,7 +100,7 @@ node-streams-file/
 Os headers do arquivo CSV devem ser configurados no arquivo apropriado. O formato esperado é:
 
 ```
-seller,amount,operation,currency,description,replace,movement_reference,movement_replacement
+sale_id,amount,product_id,currency,description,payment_method,net_value,tax_value
 ```
 
 ## 📝 Dependências
